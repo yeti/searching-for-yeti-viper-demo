@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51C8CEFA19E5A58200E95AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CEF919E5A58200E95AB3 /* AppDelegate.swift */; };
 		51C8CEFD19E5A58200E95AB3 /* SearchingForYeti_Viper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CEFB19E5A58200E95AB3 /* SearchingForYeti_Viper.xcdatamodeld */; };
-		51C8CEFF19E5A58200E95AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CEFE19E5A58200E95AB3 /* ViewController.swift */; };
-		51C8CF0219E5A58200E95AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF0019E5A58200E95AB3 /* Main.storyboard */; };
 		51C8CF0419E5A58200E95AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF0319E5A58200E95AB3 /* Images.xcassets */; };
 		51C8CF0719E5A58200E95AB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF0519E5A58200E95AB3 /* LaunchScreen.xib */; };
 		51C8CF1319E5A58200E95AB3 /* SearchingForYeti_ViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF1219E5A58200E95AB3 /* SearchingForYeti_ViperTests.swift */; };
+		51C8CF2119E5A5A800E95AB3 /* 802-dog-house-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF1D19E5A5A800E95AB3 /* 802-dog-house-selected@2x.png */; };
+		51C8CF2219E5A5A800E95AB3 /* 802-dog-house-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF1E19E5A5A800E95AB3 /* 802-dog-house-selected@3x.png */; };
+		51C8CF2319E5A5A800E95AB3 /* 802-dog-house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF1F19E5A5A800E95AB3 /* 802-dog-house@2x.png */; };
+		51C8CF2419E5A5A800E95AB3 /* 802-dog-house@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF2019E5A5A800E95AB3 /* 802-dog-house@3x.png */; };
+		51C8CF2919E5A5B600E95AB3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2619E5A5B600E95AB3 /* AddViewController.swift */; };
+		51C8CF2A19E5A5B600E95AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2719E5A5B600E95AB3 /* AppDelegate.swift */; };
+		51C8CF2B19E5A5B600E95AB3 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2819E5A5B600E95AB3 /* AppDependencies.swift */; };
+		51C8CF3519E5A5C100E95AB3 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2C19E5A5C100E95AB3 /* LocationModel.swift */; };
+		51C8CF3619E5A5C100E95AB3 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2D19E5A5C100E95AB3 /* MapInteractor.swift */; };
+		51C8CF3719E5A5C100E95AB3 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2E19E5A5C100E95AB3 /* MapPresenter.swift */; };
+		51C8CF3819E5A5C100E95AB3 /* MapPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF2F19E5A5C100E95AB3 /* MapPresenterInterface.swift */; };
+		51C8CF3919E5A5C100E95AB3 /* MapPresenterSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3019E5A5C100E95AB3 /* MapPresenterSingle.swift */; };
+		51C8CF3A19E5A5C100E95AB3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3119E5A5C100E95AB3 /* MapViewController.swift */; };
+		51C8CF3B19E5A5C100E95AB3 /* MapWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3219E5A5C100E95AB3 /* MapWireFrame.swift */; };
+		51C8CF3C19E5A5C100E95AB3 /* MockDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3319E5A5C100E95AB3 /* MockDataStore.swift */; };
+		51C8CF3D19E5A5C100E95AB3 /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3419E5A5C100E95AB3 /* RootWireFrame.swift */; };
+		51C8CF4419E5A5CA00E95AB3 /* Travel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF3E19E5A5CA00E95AB3 /* Travel.storyboard */; };
+		51C8CF4519E5A5CA00E95AB3 /* TravelInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF3F19E5A5CA00E95AB3 /* TravelInteractor.swift */; };
+		51C8CF4619E5A5CA00E95AB3 /* TravelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF4019E5A5CA00E95AB3 /* TravelPresenter.swift */; };
+		51C8CF4719E5A5CA00E95AB3 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF4119E5A5CA00E95AB3 /* TravelViewController.swift */; };
+		51C8CF4819E5A5CA00E95AB3 /* TravelWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8CF4219E5A5CA00E95AB3 /* TravelWireframe.swift */; };
+		51C8CF4919E5A5CA00E95AB3 /* YetiMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF4319E5A5CA00E95AB3 /* YetiMap.storyboard */; };
+		51C8CF4B19E5A61100E95AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C8CF4A19E5A61100E95AB3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +49,36 @@
 /* Begin PBXFileReference section */
 		51C8CEF419E5A58200E95AB3 /* SearchingForYeti-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SearchingForYeti-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C8CEF819E5A58200E95AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51C8CEF919E5A58200E95AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C8CEFC19E5A58200E95AB3 /* SearchingForYeti_Viper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchingForYeti_Viper.xcdatamodel; sourceTree = "<group>"; };
-		51C8CEFE19E5A58200E95AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51C8CF0119E5A58200E95AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51C8CF0319E5A58200E95AB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		51C8CF0619E5A58200E95AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		51C8CF0C19E5A58200E95AB3 /* SearchingForYeti-ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingForYeti-ViperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C8CF1119E5A58200E95AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C8CF1219E5A58200E95AB3 /* SearchingForYeti_ViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingForYeti_ViperTests.swift; sourceTree = "<group>"; };
+		51C8CF1D19E5A5A800E95AB3 /* 802-dog-house-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "802-dog-house-selected@2x.png"; sourceTree = "<group>"; };
+		51C8CF1E19E5A5A800E95AB3 /* 802-dog-house-selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "802-dog-house-selected@3x.png"; sourceTree = "<group>"; };
+		51C8CF1F19E5A5A800E95AB3 /* 802-dog-house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "802-dog-house@2x.png"; sourceTree = "<group>"; };
+		51C8CF2019E5A5A800E95AB3 /* 802-dog-house@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "802-dog-house@3x.png"; sourceTree = "<group>"; };
+		51C8CF2519E5A5B600E95AB3 /* SearchingForYeti-Viper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingForYeti-Viper-Bridging-Header.h"; sourceTree = "<group>"; };
+		51C8CF2619E5A5B600E95AB3 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		51C8CF2719E5A5B600E95AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51C8CF2819E5A5B600E95AB3 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		51C8CF2C19E5A5C100E95AB3 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		51C8CF2D19E5A5C100E95AB3 /* MapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		51C8CF2E19E5A5C100E95AB3 /* MapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		51C8CF2F19E5A5C100E95AB3 /* MapPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenterInterface.swift; sourceTree = "<group>"; };
+		51C8CF3019E5A5C100E95AB3 /* MapPresenterSingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenterSingle.swift; sourceTree = "<group>"; };
+		51C8CF3119E5A5C100E95AB3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		51C8CF3219E5A5C100E95AB3 /* MapWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapWireFrame.swift; sourceTree = "<group>"; };
+		51C8CF3319E5A5C100E95AB3 /* MockDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataStore.swift; sourceTree = "<group>"; };
+		51C8CF3419E5A5C100E95AB3 /* RootWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireFrame.swift; sourceTree = "<group>"; };
+		51C8CF3E19E5A5CA00E95AB3 /* Travel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Travel.storyboard; sourceTree = "<group>"; };
+		51C8CF3F19E5A5CA00E95AB3 /* TravelInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInteractor.swift; sourceTree = "<group>"; };
+		51C8CF4019E5A5CA00E95AB3 /* TravelPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelPresenter.swift; sourceTree = "<group>"; };
+		51C8CF4119E5A5CA00E95AB3 /* TravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		51C8CF4219E5A5CA00E95AB3 /* TravelWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelWireframe.swift; sourceTree = "<group>"; };
+		51C8CF4319E5A5CA00E95AB3 /* YetiMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YetiMap.storyboard; sourceTree = "<group>"; };
+		51C8CF4A19E5A61100E95AB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +120,16 @@
 		51C8CEF619E5A58200E95AB3 /* SearchingForYeti-Viper */ = {
 			isa = PBXGroup;
 			children = (
-				51C8CEF919E5A58200E95AB3 /* AppDelegate.swift */,
-				51C8CEFE19E5A58200E95AB3 /* ViewController.swift */,
-				51C8CF0019E5A58200E95AB3 /* Main.storyboard */,
+				51C8CF4C19E5A63500E95AB3 /* Common */,
+				51C8CF2C19E5A5C100E95AB3 /* LocationModel.swift */,
+				51C8CF4F19E5A65600E95AB3 /* Modules */,
+				51C8CF2719E5A5B600E95AB3 /* AppDelegate.swift */,
+				51C8CF2819E5A5B600E95AB3 /* AppDependencies.swift */,
 				51C8CF0319E5A58200E95AB3 /* Images.xcassets */,
-				51C8CF0519E5A58200E95AB3 /* LaunchScreen.xib */,
+				51C8CF5219E5A68600E95AB3 /* Storyboards */,
 				51C8CEFB19E5A58200E95AB3 /* SearchingForYeti_Viper.xcdatamodeld */,
 				51C8CEF719E5A58200E95AB3 /* Supporting Files */,
+				51C8CF2519E5A5B600E95AB3 /* SearchingForYeti-Viper-Bridging-Header.h */,
 			);
 			path = "SearchingForYeti-Viper";
 			sourceTree = "<group>";
@@ -93,6 +137,7 @@
 		51C8CEF719E5A58200E95AB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51C8CF1C19E5A59B00E95AB3 /* Images */,
 				51C8CEF819E5A58200E95AB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +158,103 @@
 				51C8CF1119E5A58200E95AB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51C8CF1C19E5A59B00E95AB3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF1D19E5A5A800E95AB3 /* 802-dog-house-selected@2x.png */,
+				51C8CF1E19E5A5A800E95AB3 /* 802-dog-house-selected@3x.png */,
+				51C8CF1F19E5A5A800E95AB3 /* 802-dog-house@2x.png */,
+				51C8CF2019E5A5A800E95AB3 /* 802-dog-house@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		51C8CF4C19E5A63500E95AB3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF3419E5A5C100E95AB3 /* RootWireFrame.swift */,
+				51C8CF4E19E5A64700E95AB3 /* DataStore */,
+				51C8CF4D19E5A64000E95AB3 /* Models */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		51C8CF4D19E5A64000E95AB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		51C8CF4E19E5A64700E95AB3 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF3319E5A5C100E95AB3 /* MockDataStore.swift */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		51C8CF4F19E5A65600E95AB3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF5119E5A66300E95AB3 /* Map */,
+				51C8CF5019E5A65E00E95AB3 /* Travel */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		51C8CF5019E5A65E00E95AB3 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF4219E5A5CA00E95AB3 /* TravelWireframe.swift */,
+				51C8CF3F19E5A5CA00E95AB3 /* TravelInteractor.swift */,
+				51C8CF4019E5A5CA00E95AB3 /* TravelPresenter.swift */,
+				51C8CF5319E5A6AC00E95AB3 /* View Controllers */,
+			);
+			name = Travel;
+			sourceTree = "<group>";
+		};
+		51C8CF5119E5A66300E95AB3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF3219E5A5C100E95AB3 /* MapWireFrame.swift */,
+				51C8CF2D19E5A5C100E95AB3 /* MapInteractor.swift */,
+				51C8CF5419E5A6C400E95AB3 /* Presenters */,
+				51C8CF3119E5A5C100E95AB3 /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		51C8CF5219E5A68600E95AB3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF4319E5A5CA00E95AB3 /* YetiMap.storyboard */,
+				51C8CF0519E5A58200E95AB3 /* LaunchScreen.xib */,
+				51C8CF3E19E5A5CA00E95AB3 /* Travel.storyboard */,
+				51C8CF4A19E5A61100E95AB3 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		51C8CF5319E5A6AC00E95AB3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF4119E5A5CA00E95AB3 /* TravelViewController.swift */,
+				51C8CF2619E5A5B600E95AB3 /* AddViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		51C8CF5419E5A6C400E95AB3 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				51C8CF2F19E5A5C100E95AB3 /* MapPresenterInterface.swift */,
+				51C8CF2E19E5A5C100E95AB3 /* MapPresenter.swift */,
+				51C8CF3019E5A5C100E95AB3 /* MapPresenterSingle.swift */,
+			);
+			name = Presenters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +337,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C8CF0219E5A58200E95AB3 /* Main.storyboard in Resources */,
+				51C8CF4419E5A5CA00E95AB3 /* Travel.storyboard in Resources */,
 				51C8CF0719E5A58200E95AB3 /* LaunchScreen.xib in Resources */,
+				51C8CF4919E5A5CA00E95AB3 /* YetiMap.storyboard in Resources */,
+				51C8CF2119E5A5A800E95AB3 /* 802-dog-house-selected@2x.png in Resources */,
 				51C8CF0419E5A58200E95AB3 /* Images.xcassets in Resources */,
+				51C8CF2219E5A5A800E95AB3 /* 802-dog-house-selected@3x.png in Resources */,
+				51C8CF4B19E5A61100E95AB3 /* Main.storyboard in Resources */,
+				51C8CF2419E5A5A800E95AB3 /* 802-dog-house@3x.png in Resources */,
+				51C8CF2319E5A5A800E95AB3 /* 802-dog-house@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +363,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C8CEFF19E5A58200E95AB3 /* ViewController.swift in Sources */,
+				51C8CF2B19E5A5B600E95AB3 /* AppDependencies.swift in Sources */,
+				51C8CF3719E5A5C100E95AB3 /* MapPresenter.swift in Sources */,
+				51C8CF4719E5A5CA00E95AB3 /* TravelViewController.swift in Sources */,
+				51C8CF2A19E5A5B600E95AB3 /* AppDelegate.swift in Sources */,
+				51C8CF3A19E5A5C100E95AB3 /* MapViewController.swift in Sources */,
+				51C8CF3B19E5A5C100E95AB3 /* MapWireFrame.swift in Sources */,
+				51C8CF2919E5A5B600E95AB3 /* AddViewController.swift in Sources */,
+				51C8CF4519E5A5CA00E95AB3 /* TravelInteractor.swift in Sources */,
+				51C8CF3619E5A5C100E95AB3 /* MapInteractor.swift in Sources */,
+				51C8CF4619E5A5CA00E95AB3 /* TravelPresenter.swift in Sources */,
+				51C8CF3C19E5A5C100E95AB3 /* MockDataStore.swift in Sources */,
+				51C8CF4819E5A5CA00E95AB3 /* TravelWireframe.swift in Sources */,
+				51C8CF3819E5A5C100E95AB3 /* MapPresenterInterface.swift in Sources */,
+				51C8CF3D19E5A5C100E95AB3 /* RootWireFrame.swift in Sources */,
+				51C8CF3519E5A5C100E95AB3 /* LocationModel.swift in Sources */,
+				51C8CF3919E5A5C100E95AB3 /* MapPresenterSingle.swift in Sources */,
 				51C8CEFD19E5A58200E95AB3 /* SearchingForYeti_Viper.xcdatamodeld in Sources */,
-				51C8CEFA19E5A58200E95AB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		51C8CF0019E5A58200E95AB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51C8CF0119E5A58200E95AB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51C8CF0519E5A58200E95AB3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,9 +494,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SearchingForYeti-Viper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchingForYeti-Viper/SearchingForYeti-Viper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +507,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SearchingForYeti-Viper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchingForYeti-Viper/SearchingForYeti-Viper-Bridging-Header.h";
 			};
 			name = Release;
 		};

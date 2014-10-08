@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--All-->
+        <scene sceneID="zBH-nZ-3jh">
+            <objects>
+                <navigationController storyboardIdentifier="MapNavControllerID" title="All" id="nrN-Q3-atB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SlX-ks-ACU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CA9-wH-mNA" kind="relationship" relationship="rootViewController" id="I3Z-s7-kAT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8c-Ey-P8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-200" y="380"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="JM2-lD-EDd">
+            <objects>
+                <viewController id="CA9-wH-mNA" customClass="MapViewController" customModule="SearchingForYeti_Viper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M5d-Ok-BKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="hQy-5d-8OI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PM6-ih-oTt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Jj-FU-yKr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQy-bl-eYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="381"/>
+        </scene>
+    </scenes>
+</document>
